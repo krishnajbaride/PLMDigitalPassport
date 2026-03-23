@@ -1,0 +1,210 @@
+[
+  {
+    "id": "ASM-100",
+    "name": "Control Core Assembly",
+    "kind": "assembly",
+    "domain": "electronic",
+    "supplier": "In-house",
+    "cost": 0.0,
+    "lead_time_days": 0,
+    "co2_kg": 0.0,
+    "repairability": null,
+    "recycled_content_pct": null,
+    "single_source": false,
+    "compliance": [
+      "RoHS",
+      "REACH"
+    ],
+    "compliance_gaps": [],
+    "notes": "Logical grouping for board, sensing and control firmware."
+  },
+  {
+    "id": "ASM-200",
+    "name": "Connectivity Assembly",
+    "kind": "assembly",
+    "domain": "electronic",
+    "supplier": "In-house",
+    "cost": 0.0,
+    "lead_time_days": 0,
+    "co2_kg": 0.0,
+    "repairability": null,
+    "recycled_content_pct": null,
+    "single_source": false,
+    "compliance": [
+      "RoHS",
+      "REACH"
+    ],
+    "compliance_gaps": [],
+    "notes": "Connectivity layer shared across products and service kits."
+  },
+  {
+    "id": "CMP-001",
+    "name": "Main Control PCB",
+    "kind": "component",
+    "domain": "electronic",
+    "supplier": "VoltWorks",
+    "cost": 42.5,
+    "lead_time_days": 35,
+    "co2_kg": 2.3,
+    "repairability": 4,
+    "recycled_content_pct": 18,
+    "single_source": false,
+    "compliance": [
+      "RoHS",
+      "REACH"
+    ],
+    "compliance_gaps": [],
+    "notes": "Primary board for process control and diagnostics."
+  },
+  {
+    "id": "CMP-002",
+    "name": "Wireless Module MX-22",
+    "kind": "component",
+    "domain": "electronic",
+    "supplier": "BlueMesh",
+    "cost": 11.2,
+    "lead_time_days": 65,
+    "co2_kg": 0.8,
+    "repairability": 3,
+    "recycled_content_pct": 10,
+    "single_source": true,
+    "compliance": [
+      "RoHS"
+    ],
+    "compliance_gaps": [
+      "REACH declaration missing"
+    ],
+    "notes": "Shared connectivity module with elevated supply risk."
+  },
+  {
+    "id": "CMP-003",
+    "name": "Temperature Sensor TS-8",
+    "kind": "component",
+    "domain": "sensor",
+    "supplier": "SensorForge",
+    "cost": 4.1,
+    "lead_time_days": 28,
+    "co2_kg": 0.2,
+    "repairability": 4,
+    "recycled_content_pct": 12,
+    "single_source": false,
+    "compliance": [
+      "RoHS",
+      "REACH"
+    ],
+    "compliance_gaps": [],
+    "notes": "Sensor for thermal monitoring and protection."
+  },
+  {
+    "id": "CMP-004",
+    "name": "Power Relay 24V",
+    "kind": "component",
+    "domain": "electromechanical",
+    "supplier": "SwitchWare",
+    "cost": 7.9,
+    "lead_time_days": 21,
+    "co2_kg": 0.4,
+    "repairability": 4,
+    "recycled_content_pct": 14,
+    "single_source": false,
+    "compliance": [
+      "RoHS",
+      "REACH"
+    ],
+    "compliance_gaps": [],
+    "notes": "Controls actuator switching in pump systems."
+  },
+  {
+    "id": "CMP-005",
+    "name": "Firmware Package v5.3.1",
+    "kind": "component",
+    "domain": "software",
+    "supplier": "In-house",
+    "cost": 0.0,
+    "lead_time_days": 3,
+    "co2_kg": 0.0,
+    "repairability": 5,
+    "recycled_content_pct": 0,
+    "single_source": false,
+    "compliance": [
+      "CycloneDX-SBOM"
+    ],
+    "compliance_gaps": [],
+    "sbom_ref": "pkg:github/threadpass-plm/aquapulse-firmware@5.3.1",
+    "notes": "Device firmware with diagnostics and service telemetry."
+  },
+  {
+    "id": "CMP-006",
+    "name": "Recycled ABS Enclosure",
+    "kind": "component",
+    "domain": "mechanical",
+    "supplier": "EcoMold",
+    "cost": 13.4,
+    "lead_time_days": 14,
+    "co2_kg": 1.5,
+    "repairability": 4,
+    "recycled_content_pct": 62,
+    "single_source": false,
+    "compliance": [
+      "RoHS",
+      "REACH"
+    ],
+    "compliance_gaps": [],
+    "notes": "Enclosure optimized for serviceability and recycled content."
+  },
+  {
+    "id": "CMP-007",
+    "name": "QR Service Label",
+    "kind": "component",
+    "domain": "labeling",
+    "supplier": "PrintCircle",
+    "cost": 0.4,
+    "lead_time_days": 7,
+    "co2_kg": 0.05,
+    "repairability": 5,
+    "recycled_content_pct": 35,
+    "single_source": false,
+    "compliance": [
+      "REACH"
+    ],
+    "compliance_gaps": [],
+    "notes": "QR-coded label intended for service history and product passport access."
+  },
+  {
+    "id": "CMP-008",
+    "name": "Mounting Kit",
+    "kind": "component",
+    "domain": "mechanical",
+    "supplier": "FastenPro",
+    "cost": 2.8,
+    "lead_time_days": 10,
+    "co2_kg": 0.12,
+    "repairability": 5,
+    "recycled_content_pct": 25,
+    "single_source": false,
+    "compliance": [
+      "REACH"
+    ],
+    "compliance_gaps": [],
+    "notes": "Universal mounting hardware for field installation."
+  },
+  {
+    "id": "CMP-009",
+    "name": "Power Booster Board",
+    "kind": "component",
+    "domain": "electronic",
+    "supplier": "VoltWorks",
+    "cost": 15.6,
+    "lead_time_days": 32,
+    "co2_kg": 1.1,
+    "repairability": 4,
+    "recycled_content_pct": 16,
+    "single_source": false,
+    "compliance": [
+      "RoHS",
+      "REACH"
+    ],
+    "compliance_gaps": [],
+    "notes": "Additional board for higher-capacity X2 controller."
+  }
+]

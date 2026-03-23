@@ -1,0 +1,32 @@
+[
+  {
+    "id": "PRD-100",
+    "name": "AquaPulse Controller X1",
+    "version": "1.2.0",
+    "category": "Industrial IoT controller",
+    "description": "Connected controller for smart pump and fluid handling systems.",
+    "service_life_years": 8,
+    "warranty_months": 24,
+    "end_of_life_strategy": "Refurbish first, then recycle electronics and enclosure separately."
+  },
+  {
+    "id": "PRD-200",
+    "name": "AquaPulse Controller X2",
+    "version": "2.0.0",
+    "category": "Industrial IoT controller",
+    "description": "Higher-capacity controller for multi-zone pump networks.",
+    "service_life_years": 10,
+    "warranty_months": 36,
+    "end_of_life_strategy": "Harvest serviceable modules, then recycle materials by stream."
+  },
+  {
+    "id": "PRD-300",
+    "name": "AquaPulse Field Retrofit Kit",
+    "version": "1.0.0",
+    "category": "Service retrofit kit",
+    "description": "Retrofit kit that adds telemetry and remote alerts to legacy pump installations.",
+    "service_life_years": 5,
+    "warranty_months": 12,
+    "end_of_life_strategy": "Return-to-manufacturer for module reuse and recycling."
+  }
+]

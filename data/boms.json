@@ -1,0 +1,102 @@
+[
+  {
+    "parent_id": "PRD-100",
+    "child_id": "ASM-100",
+    "quantity": 1
+  },
+  {
+    "parent_id": "PRD-100",
+    "child_id": "ASM-200",
+    "quantity": 1
+  },
+  {
+    "parent_id": "PRD-100",
+    "child_id": "CMP-006",
+    "quantity": 1
+  },
+  {
+    "parent_id": "PRD-100",
+    "child_id": "CMP-007",
+    "quantity": 1
+  },
+  {
+    "parent_id": "PRD-100",
+    "child_id": "CMP-008",
+    "quantity": 1
+  },
+  {
+    "parent_id": "PRD-200",
+    "child_id": "ASM-100",
+    "quantity": 1
+  },
+  {
+    "parent_id": "PRD-200",
+    "child_id": "ASM-200",
+    "quantity": 2
+  },
+  {
+    "parent_id": "PRD-200",
+    "child_id": "CMP-006",
+    "quantity": 1
+  },
+  {
+    "parent_id": "PRD-200",
+    "child_id": "CMP-007",
+    "quantity": 1
+  },
+  {
+    "parent_id": "PRD-200",
+    "child_id": "CMP-008",
+    "quantity": 2
+  },
+  {
+    "parent_id": "PRD-200",
+    "child_id": "CMP-009",
+    "quantity": 1
+  },
+  {
+    "parent_id": "PRD-300",
+    "child_id": "ASM-200",
+    "quantity": 1
+  },
+  {
+    "parent_id": "PRD-300",
+    "child_id": "CMP-005",
+    "quantity": 1
+  },
+  {
+    "parent_id": "PRD-300",
+    "child_id": "CMP-007",
+    "quantity": 1
+  },
+  {
+    "parent_id": "PRD-300",
+    "child_id": "CMP-008",
+    "quantity": 1
+  },
+  {
+    "parent_id": "ASM-100",
+    "child_id": "CMP-001",
+    "quantity": 1
+  },
+  {
+    "parent_id": "ASM-100",
+    "child_id": "CMP-003",
+    "quantity": 2
+  },
+  {
+    "parent_id": "ASM-100",
+    "child_id": "CMP-004",
+    "quantity": 1
+  },
+  {
+    "parent_id": "ASM-100",
+    "child_id": "CMP-005",
+    "quantity": 1
+  },
+  {
+    "parent_id": "ASM-200",
+    "child_id": "CMP-002",
+    "quantity": 1
+  }
+]

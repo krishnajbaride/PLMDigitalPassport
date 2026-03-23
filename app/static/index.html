@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ThreadPass PLM</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Composable PLM starter</p>
+        <h1>ThreadPass PLM</h1>
+        <p class="hero-copy">
+          A lightweight open-source project that converts BOM and ECO data into
+          change-impact reports and digital product passports.
+        </p>
+      </div>
+      <div class="hero-card" id="overview-card">
+        <h3>Loading overview…</h3>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="panel">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Digital Product Passport</p>
+            <h2>Generate a product passport</h2>
+          </div>
+          <select id="product-select"></select>
+        </div>
+        <pre id="passport-output">Select a product to view its passport JSON.</pre>
+      </section>
+
+      <section class="panel">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Change Impact</p>
+            <h2>Analyze an engineering change</h2>
+          </div>
+          <select id="change-select"></select>
+        </div>
+        <pre id="impact-output">Select a change request to view its impact analysis.</pre>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        API docs are available at <code>/docs</code> after you run the app.
+      </p>
+    </footer>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>
